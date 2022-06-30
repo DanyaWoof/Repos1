@@ -1,0 +1,11 @@
+.nofoto{
+    background: url(images/no-foto.png);
+    opacity: 0.8;
+    height:160px;
+    }
+
+.table-primer {
+    display: block;
+    overflow: auto;
+    max-width: 100%;
+    }
