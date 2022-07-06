@@ -8,4 +8,23 @@
     display: block;
     overflow: auto;
     max-width: 100%;
+    width: 48%;
+    border: 2px; 
+    border-color: aqua;
+    background-color: rgb(236, 193, 52);
+    border-style: dashed;
+    }
+    
+table {
+    border-collapse: collapse;
+    /*убираем пустые промежутки между ячейками*/
+    border: 1px solid grey;
+    /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+    width: 50%;
+    }
+
+th, td {
+    border: 1px solid grey;
+    text-align: center;
+    ali
     }
