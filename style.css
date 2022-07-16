@@ -14,17 +14,37 @@
     background-color: rgb(236, 193, 52);
     border-style: dashed;
     }
-    
-table {
+
+.verst-table{
     border-collapse: collapse;
     /*убираем пустые промежутки между ячейками*/
-    border: 1px solid grey;
+    border: 0px solid grey;
     /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
-    width: 50%;
-    }
-
-th, td {
+    width: 100%; 
+}
+.verst-tr{
+    width: 100%;
+    color: aqua;
     border: 1px solid grey;
     text-align: center;
-    ali
-    }
+    align-content: center;
+}
+.verst-th_td{
+    color: aqua;
+    border: 1px solid grey;
+    text-align: center;
+    align-content: center;
+}
+
+body{
+    background-color: #003366;
+
+}
+.equal-width td {   
+    width: 50%;
+    border: 1px;
+}
+.equal-width tr {
+    width: 10%;
+    background-color: aliceblue;
+}
